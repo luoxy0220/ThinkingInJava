@@ -5,5 +5,5 @@ package chapter14Typeinfo.pets;
  * @Author: Sean Luo
  * @Description:
  */
-public class pet {
+public class Pet {
 }

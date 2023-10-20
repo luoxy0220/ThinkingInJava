@@ -1,6 +1,11 @@
 package chapter15Generics.coffee;
 
-import static net.mindview.util.New;
+import chapter14Typeinfo.pets.Person;
+import net.mindview.util.New;
+import chapter14Typeinfo.pets.Pet;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * @Date: 2023/10/19 22:52
