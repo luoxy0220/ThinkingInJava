@@ -5,5 +5,13 @@ package chapter14Typeinfo.pets;
  * @Author: Sean Luo
  * @Description:
  */
-public class Pet {
+public class Pet extends Individual{
+
+    public Pet(String name) {
+        super(name);
+    }
+
+    public Pet() {
+        super();
+    }
 }
