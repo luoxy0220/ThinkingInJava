@@ -3,16 +3,18 @@ package chapter08Polymorphism.shape;
 import static net.mindview.util.Print.print;
 
 /**
- * @Date: 2023/10/27 14:11
+ * @Date: 2023/10/25 20:52
  * @Author: Sean Luo
  * @Description:
  */
 public class Square extends Shape {
 
+    @Override
     public void draw() {
-        print("Square.play()");
+        print("Square.draw()");
     }
 
+    @Override
     public void erase() {
         print("Square.erase()");
     }

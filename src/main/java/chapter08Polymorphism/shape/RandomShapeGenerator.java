@@ -3,13 +3,13 @@ package chapter08Polymorphism.shape;
 import java.util.Random;
 
 /**
- * @Date: 2023/10/27 14:15
+ * @Date: 2023/10/25 20:54
  * @Author: Sean Luo
  * @Description: A "factory" that randomly creates shapes.
  */
 public class RandomShapeGenerator {
 
-    private final Random rand = new Random(47);
+    private Random rand = new Random(47);
 
     public Shape next() {
         switch (rand.nextInt(3)) {

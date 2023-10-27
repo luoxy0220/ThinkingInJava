@@ -4,13 +4,13 @@ import chapter08Polymorphism.shape.RandomShapeGenerator;
 import chapter08Polymorphism.shape.Shape;
 
 /**
- * @Date: 2023/10/27 14:20
+ * @Date: 2023/10/25 20:59
  * @Author: Sean Luo
- * @Description: Polymorphism in Java
+ * @Description: Polymorphism in java
  */
 public class Shapes {
 
-    public static RandomShapeGenerator gen =
+    private static RandomShapeGenerator gen =
             new RandomShapeGenerator();
 
     public static void main(String[] args) {
@@ -20,8 +20,8 @@ public class Shapes {
             s[i] = gen.next();
         }
         // Make polymorphism method calls
-        for (Shape shp : s) {
-            shp.draw();
+        for (Shape shape : s) {
+            shape.draw();
         }
     }
 }
