@@ -8,10 +8,23 @@ import static net.mindview.util.Print.print;
  * @Description: Constructor calls during inheritance
  */
 class Art {
-
     Art() {
         print("Art constructor");
     }
 }
-public class Cartoon {
+
+class Drawing extends Art {
+    Drawing() {
+        print("Drawing constructor");
+    }
+}
+
+public class Cartoon extends Drawing {
+    public Cartoon() {
+        print("Cartoon constructor");
+    }
+
+    public static void main(String[] args) {
+        Cartoon X = new Cartoon();
+    }
 }
