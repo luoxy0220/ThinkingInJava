@@ -53,10 +53,10 @@ class Custom {
 }
 
 public class PlaceSetting extends Custom {
-    private Spoon sp;
-    private Fork frk;
-    private Knife kn;
-    private DinnerPlate pl;
+    private final Spoon sp;
+    private final Fork frk;
+    private final Knife kn;
+    private final DinnerPlate pl;
 
     public PlaceSetting(int i) {
         super(i + 1);

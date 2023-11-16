@@ -1,7 +1,7 @@
 package util;
 
 public class BasicGenerator<T> implements Generator<T> {
-  private Class<T> type;
+  private final Class<T> type;
 
   public BasicGenerator(Class<T> type) {
     this.type = type;
@@ -18,6 +18,6 @@ public class BasicGenerator<T> implements Generator<T> {
 
   // Produce a Default generator given a type token:
   public static <T> Generator<T> create(Class<T> type) {
-    return new BasicGenerator<T>(type);
+    return new BasicGenerator<>(type);
   }
 }

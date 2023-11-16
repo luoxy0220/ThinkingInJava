@@ -4,7 +4,7 @@
  * @Description:
  */
 public class SpaceShip extends SpaceShipControls {
-    private String name;
+    private final String name;
 
     public SpaceShip(String name) {
         this.name = name;

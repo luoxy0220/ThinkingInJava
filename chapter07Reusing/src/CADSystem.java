@@ -40,7 +40,7 @@ class Triangle extends Shape {
 }
 
 class Line extends Shape {
-    private int start, end;
+    private final int start, end;
 
     Line(int start, int end) {
         super(start);
@@ -57,9 +57,9 @@ class Line extends Shape {
 }
 
 public class CADSystem extends Shape {
-    private Circle c;
-    private Triangle t;
-    private Line[] lines = new Line[3];
+    private final Circle c;
+    private final Triangle t;
+    private final Line[] lines = new Line[3];
 
     public CADSystem(int i) {
         super(i + 1);

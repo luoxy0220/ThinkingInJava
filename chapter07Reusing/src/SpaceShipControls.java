@@ -4,17 +4,17 @@
  * @Description:
  */
 public class SpaceShipControls {
-    void up(int velocity) {};
+    void up(int velocity) {}
 
-    void down(int velocity) {};
+    void down(int velocity) {}
 
-    void left(int velocity) {};
+    void left(int velocity) {}
 
-    void right(int velocity) {};
+    void right(int velocity) {}
 
-    void froward(int velocity) {};
+    void froward(int velocity) {}
 
-    void back(int velocity) {};
+    void back(int velocity) {}
 
-    void turboBoost(int velocity) {};
+    void turboBoost(int velocity) {}
 }

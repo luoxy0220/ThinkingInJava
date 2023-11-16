@@ -4,7 +4,7 @@
  * @Description:
  */
 public class WithFinally {
-    private static Switch sw = new Switch();
+    private static final Switch sw = new Switch();
 
     public static void main(String[] args) {
         try {

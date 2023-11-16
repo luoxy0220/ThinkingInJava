@@ -6,7 +6,7 @@
 public class SpaceShipDelegation {
     private String name;
 
-    private SpaceShipControls controls =
+    private final SpaceShipControls controls =
             new SpaceShipControls();
 
     public SpaceShipDelegation(String name) {

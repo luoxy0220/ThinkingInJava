@@ -1,6 +1,3 @@
-//: net/mindview/util/SwingConsole.java
-// Tool for running Swing demos from the
-// console, both applets and JFrames.
 package util;
 import javax.swing.*;
 
@@ -16,4 +13,4 @@ public class SwingConsole {
       }
     });
   }
-} ///:~
+}

@@ -14,7 +14,7 @@ class Insect {
         j = 39;
     }
 
-    private static int x1 =
+    private static final int x1 =
             printInit("static Insect.x1 initialized");
 
     static int printInit(String s) {
@@ -30,7 +30,7 @@ public class Beetle extends Insect {
         print("j = " + j);
     }
 
-    private static int x2 =
+    private static final int x2 =
             printInit("static Beetle.x2 initialized");
 
     public static void main(String[] args) {

@@ -73,7 +73,7 @@ public class CountingGenerator {
     private float value = 0;
     public java.lang.Float next() {
       float result = value;
-      value += 1.0;
+      value += 1.0F;
       return result;
     }
   }
