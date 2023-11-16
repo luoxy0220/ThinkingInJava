@@ -1,6 +1,6 @@
 package music;
 
-import static net.mindview.util.Print.print;
+import static util.Print.print;
 
 /**
  * @Date: 2023/10/27 13:52

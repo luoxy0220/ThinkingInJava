@@ -1,6 +1,8 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import static util.Print.print;
+
 /**
  * @Date: 2023/11/15 17:22
  * @Author: Sean Luo

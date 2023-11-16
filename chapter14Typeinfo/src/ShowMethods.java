@@ -2,7 +2,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.regex.Pattern;
 
-import static net.mindview.util.Print.print;
+import static util.Print.print;
 
 /**
  * @Date: 2023/10/24 9:41

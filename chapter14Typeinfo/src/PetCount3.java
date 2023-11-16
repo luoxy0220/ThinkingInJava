@@ -1,13 +1,12 @@
 import pets.LiteralPetCreator;
 import pets.Pet;
 import pets.Pets;
-import net.mindview.util.MapData;
-
+import util.MapData;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static net.mindview.util.Print.print;
-import static net.mindview.util.Print.printnb;
+import static util.Print.print;
+import static util.Print.printnb;
 
 /**
  * @Date: 2023/10/23 13:44

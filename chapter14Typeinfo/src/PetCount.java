@@ -1,9 +1,8 @@
 import pets.*;
-
 import java.util.HashMap;
 
-import static net.mindview.util.Print.print;
-import static net.mindview.util.Print.printnb;
+import static util.Print.print;
+import static util.Print.printnb;
 
 /**
  * @Date: 2023/10/23 11:07

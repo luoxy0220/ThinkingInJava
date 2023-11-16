@@ -1,4 +1,4 @@
-import static net.mindview.util.Print.print;
+import static util.Print.print;
 
 /**
  * @Date: 2023/11/7 13:56

@@ -1,9 +1,9 @@
 import pets.Pet;
 import pets.Pets;
-import net.mindview.util.TypeCounter;
+import util.TypeCounter;
 
-import static net.mindview.util.Print.print;
-import static net.mindview.util.Print.printnb;
+import static util.Print.print;
+import static util.Print.printnb;
 
 /**
  * @Date: 2023/10/23 14:16

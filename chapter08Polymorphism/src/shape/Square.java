@@ -1,5 +1,7 @@
 package shape;
 
+import static util.Print.print;
+
 /**
  * @Date: 2023/10/25 20:52
  * @Author: Sean Luo

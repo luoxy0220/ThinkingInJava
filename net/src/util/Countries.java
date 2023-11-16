@@ -4,7 +4,7 @@ package util;
 
 import java.util.*;
 
-import static net.mindview.util.Print.print;
+import static util.Print.print;
 
 public class Countries {
   public static final String[][] DATA = {

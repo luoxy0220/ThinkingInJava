@@ -1,6 +1,6 @@
 import java.util.Random;
 
-import static net.mindview.util.Print.print;
+import static util.Print.print;
 
 /**
  * @Date: 2023/11/2 15:52

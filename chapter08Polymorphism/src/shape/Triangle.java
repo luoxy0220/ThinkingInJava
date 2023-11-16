@@ -1,6 +1,6 @@
 package shape;
 
-import static net.mindview.util.Print.print;
+import static util.Print.print;
 
 /**
  * @Date: 2023/10/25 20:53
