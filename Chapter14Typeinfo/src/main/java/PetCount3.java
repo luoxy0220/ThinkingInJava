@@ -2,11 +2,10 @@ import pets.LiteralPetCreator;
 import pets.Pet;
 import pets.Pets;
 import util.MapData;
+import util.Print;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
-
-import static util.Print.print;
-import static util.Print.printnb;
 
 /**
  * @Date: 2023/10/23 13:44
@@ -49,10 +48,10 @@ public class PetCount3 {
     public static void main(String[] args) {
         PetCounter petCount = new PetCounter();
         for (Pet pet : Pets.createArray(20)) {
-            printnb(pet.getClass().getSimpleName() + " ");
+            Print.printnb(pet.getClass().getSimpleName() + " ");
             petCount.count(pet);
         }
-        print();
-        print(petCount);
+        Print.print();
+        Print.print(petCount);
     }
 }

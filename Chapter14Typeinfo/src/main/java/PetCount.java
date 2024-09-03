@@ -1,8 +1,7 @@
 import pets.*;
-import java.util.HashMap;
+import util.Print;
 
-import static util.Print.print;
-import static util.Print.printnb;
+import java.util.HashMap;
 
 /**
  * @Date: 2023/10/23 11:07
@@ -26,7 +25,7 @@ public class PetCount {
         PetCounter counter = new PetCounter();
         for (Pet pet : creator.createArray(20)) {
             // List each individual pet
-            printnb(pet.getClass().getSimpleName() + " ");
+            Print.printnb(pet.getClass().getSimpleName() + " ");
             if (pet instanceof Pet) counter.count("Pet");
             if (pet instanceof Dog) counter.count("Dog");
             if (pet instanceof Mutt) counter.count("Mutt");
@@ -40,8 +39,8 @@ public class PetCount {
             if (pet instanceof Mouse) counter.count("Mouse");
             if (pet instanceof Hamster) counter.count("Hamster");
         }
-        print();
-        print(counter);
+        Print.print();
+        Print.print(counter);
     }
 
     public static void main(String[] args) {

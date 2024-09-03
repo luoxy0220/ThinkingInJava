@@ -1,4 +1,4 @@
-import static util.Print.print;
+import util.Print;
 
 /**
  * @Date: 2023/10/24 13:33
@@ -16,12 +16,12 @@ class RealObject implements Interface {
 
     @Override
     public void doSomething() {
-        print("doSomething");
+        Print.print("doSomething");
     }
 
     @Override
     public void somethingElse(String arg) {
-        print("somethingElse " + arg);
+        Print.print("somethingElse " + arg);
     }
 }
 
@@ -35,13 +35,13 @@ class SimpleProxy implements Interface {
 
     @Override
     public void doSomething() {
-        print("SimpleProxy doSomething");
+        Print.print("SimpleProxy doSomething");
         proxied.doSomething();
     }
 
     @Override
     public void somethingElse(String arg) {
-        print("SimpleProxy somethingElse " + arg);
+        Print.print("SimpleProxy somethingElse " + arg);
         proxied.somethingElse(arg);
     }
 }

@@ -7,6 +7,19 @@
     <groupId>org.example</groupId>
     <artifactId>ThinkingInJava</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Chapter06Access</module>
+        <module>Chapter07Reusing</module>
+        <module>Chapter08Polymorphism</module>
+        <module>Chapter09Interfaces</module>
+        <module>Chapter11Holding</module>
+        <module>Chapter12Exception</module>
+        <module>Chapter14Typeinfo</module>
+        <module>Chapter15Generics</module>
+        <module>Chapter18Io</module>
+        <module>Net</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

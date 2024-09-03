@@ -1,8 +1,8 @@
+import util.Print;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.regex.Pattern;
-
-import static util.Print.print;
 
 /**
  * @Date: 2023/10/24 9:41
@@ -22,7 +22,7 @@ public class ShowMethods {
 
     public static void main(String[] args) {
         if (args.length < 1) {
-            print(usage);
+            Print.print(usage);
             System.exit(0);
         }
         int lines = 0;
@@ -32,31 +32,31 @@ public class ShowMethods {
             Constructor[] ctors = c.getConstructors();
             if (args.length == 1) {
                 for (Method method : methods) {
-                    print(
+                    Print.print(
                             p.matcher(method.toString()).replaceAll(""));
                 }
                 for (Constructor ctor : ctors) {
-                    print(p.matcher(ctor.toString()).replaceAll(""));
+                    Print.print(p.matcher(ctor.toString()).replaceAll(""));
                 }
                 lines = methods.length + ctors.length;
             } else {
                 for (Method method : methods) {
                     if (method.toString().contains(args[1])) {
-                        print(
+                        Print.print(
                                 p.matcher(method.toString()).replaceAll(""));
                         lines++;
                     }
                 }
                 for (Constructor ctor : ctors) {
                     if (ctor.toString().contains(args[1])) {
-                        print(p.matcher(
+                        Print.print(p.matcher(
                                 ctor.toString()).replaceAll(""));
                         lines++;
                     }
                 }
             }
         } catch (ClassNotFoundException e) {
-            print("No such class:" + e);
+            Print.print("No such class:" + e);
         }
     }
 }
